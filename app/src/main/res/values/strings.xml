@@ -1,0 +1,47 @@
+<resources>
+    <!--  App Title Strings  -->
+    <string name="app_name">shopflo_software_android_app</string>
+    <string name="software_name">ShopFlo</string>
+
+    <!--  Auth0 client id and domain for user authentication  -->
+    <!--  Change this to fit your own Auth0 apps client id and domain  -->
+    <string name="com_auth0_client_id">HwBR36hX8icSlMMnFr91M3E5EJ6n7RCp</string>
+    <string name="com_auth0_domain">dev-uw4plg2a.auth0.com</string>
+
+
+    <!--  User authentication (login/logout) related Strings  -->
+    <string name="welcome_message">Welcome To Your App</string>
+    <string name="refresh">Refresh the access_token</string>
+    <string name="login">Log in</string>
+    <string name="logout">Logout</string>
+    <string name="request_credentials_title">Authenticate to continue</string>
+
+
+    <!-- Strings related to the Home Screen -->
+    <string name="session_valid">Your session is still valid:</string>
+    <string name="select_view">Select View</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_jobs">Jobs</string>
+    <string name="action_inventory">Inventory</string>
+    <string name="customer_service_rep">Customer Service Rep</string>
+    <string name="action_operator">Operator</string>
+    <string name="activity_management">Management</string>
+    <string name="action_inspector">Inspector</string>
+    <string name="operator_home">Operator Home</string>
+    <string name="manager_home">Manager Home</string>
+    <string name="csr_home">Customer Service Rep Home</string>
+    <string name="inspector_home">Inspector Home</string>
+    <string name="admin_home">Admin Home</string>
+
+
+    <!-- Strings Related to Different User Home Pages -->
+    <string name="projects_view">Projects</string>
+    <string name="inventory_view">Inventory</string>
+    <string name="orders_view">Orders</string>
+    <string name="production_view">Production</string>
+    <string name="project_header">Projects</string>
+    <string name="review_header">Review</string>
+    <string name="orders_header">Orders</string>
+    <string name="inventory_header">Inventory</string>
+    <string name="review_view">Review</string>
+</resources>

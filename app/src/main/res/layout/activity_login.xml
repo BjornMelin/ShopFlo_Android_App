@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_general_margin">
+
+    <!-- Text View which displays the apps name "ShopFlo" -->
+    <TextView
+        android:id="@+id/software_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/software_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0059d6"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <!-- Login Button which when clicked, routes user to Auth0 universal login -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0059d6"
+        android:padding="@dimen/activity_general_margin"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

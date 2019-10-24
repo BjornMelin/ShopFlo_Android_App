@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- Header for the Review Activity View -->
+    <RelativeLayout
+        android:id="@+id/header_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/review_header"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="@dimen/activity_general_margin"
+        android:layout_marginEnd="@dimen/activity_general_margin"
+        android:layout_marginTop="@dimen/activity_general_margin"
+        android:background="@android:color/white"
+        android:textColor="@color/main_blue"
+        android:textStyle="bold"
+        android:padding="@dimen/activity_general_margin"
+        android:text="@string/logout" />
+
+
+
+    <!-- Text View that shows that a users session is valid -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/session_valid"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <!-- Text View that shows the users access token credentials
+         This is needed in order to change between activities -->
+    <TextView
+        android:id="@+id/credentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+</LinearLayout>

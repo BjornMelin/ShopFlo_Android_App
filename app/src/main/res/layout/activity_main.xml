@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- Header for the Admin Activity View -->
+    <RelativeLayout
+        android:id="@+id/header_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_blue"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/admin_home"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+
+    <!-- Text View prompting Admin to choose a view -->
+    <TextView
+        android:id="@+id/select_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:text="@string/select_view"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+    <!-- Customer Service Rep Activity View Button -->
+    <Button
+        android:id="@+id/action_service_rep"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_general_margin"
+        android:text="@string/customer_service_rep"
+        android:enabled="true"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="#0059d6"
+        android:textColor="@android:color/white" />
+
+
+    <!-- Management Activity View Button -->
+    <Button
+        android:id="@+id/action_management"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_general_margin"
+        android:text="@string/activity_management"
+        android:enabled="true"
+        android:textStyle="bold"
+        android:background="#0059d6"
+        android:textColor="@android:color/white" />
+
+
+    <!-- Inspector Activity View Button -->
+    <Button
+        android:id="@+id/action_inspector"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_general_margin"
+        android:text="@string/action_inspector"
+        android:enabled="true"
+        android:textStyle="bold"
+        android:background="#0059d6"
+        android:textColor="@android:color/white" />
+
+
+    <!-- Operator Activity View Button -->
+    <Button
+        android:id="@+id/action_operator"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_general_margin"
+        android:text="@string/action_operator"
+        android:enabled="true"
+        android:textStyle="bold"
+        android:background="#0059d6"
+        android:textColor="@android:color/white" />
+
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_general_margin"
+        android:background="@android:color/white"
+        android:textColor="#0059d6"
+        android:textStyle="bold"
+        android:padding="@dimen/activity_general_margin"
+        android:text="@string/logout" />
+
+
+    <!-- Text View that shows that a users session is valid -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/session_valid"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+
+    <!-- Text View that shows the users access token credentials
+         This is needed in order to change between activities -->
+    <TextView
+        android:id="@+id/credentials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+</LinearLayout>
+
