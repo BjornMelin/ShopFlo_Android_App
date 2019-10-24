@@ -11,8 +11,8 @@
  6.  Locate Auth0 related strings and enter info as shown below:   
      `<string name="com_auth0_client_id">your client ID</string>`  
      `<string name="com_auth0_domain">your auth0 domain</string>`
- 7.  Go back to Auth0 Application and navigate to **Settings** then find **Allowed Callback URLs** and **Allowed Logout URLs** and enter in:
-    demo://your_auth0_domain/android/your_android_app_package_name/callback  
- 8.  Navigate to Application build.gradle file and ensure that the following line is filled in correctly under defaultConfig:
-    manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]
+ 7.  Go back to Auth0 Application and navigate to **Settings** then find **Allowed Callback URLs** and **Allowed Logout URLs** and enter in:  
+    `demo://your_auth0_domain/android/your_android_app_package_name/callback`
+ 8.  Navigate to Application build.gradle file and ensure that the following line is filled in correctly under defaultConfig:  
+    `manifestPlaceholders = [auth0Domain: "@string/com_auth0_domain", auth0Scheme: "demo"]`
  9.  Test your authenticated login with Auth0, should be working.  Also be sure to test that logout works.  If any issues are encountered, refer to Auth0 help resources available on their website.
