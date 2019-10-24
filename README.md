@@ -9,8 +9,8 @@
  4.  Navigate to settings and locate your **Domain** and **Client ID**
  5.  In Android Studio ShopFlo Application, navigate to **res > values > strings**
  6.  Locate Auth0 related strings and enter info as shown below:   
-     <string name="your_auth0_client_id">HwBR36hX8icSlMMnFr91M3E5EJ6n7RCp</string>
-     <string name="your_auth0_domain">dev-uw4plg2a.auth0.com</string>  
+     <string name="com_auth0_client_id">your client ID</string>
+     <string name="com_auth0_domain">your auth0 domain</string>
  7.  Go back to Auth0 Application and navigate to **Settings** then find **Allowed Callback URLs** and **Allowed Logout URLs** and enter in:
     demo://your_auth0_domain/android/your_android_app_package_name/callback  
  8.  Navigate to Application build.gradle file and ensure that the following line is filled in correctly under defaultConfig:
