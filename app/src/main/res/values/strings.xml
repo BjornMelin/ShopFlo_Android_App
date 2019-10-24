@@ -5,8 +5,8 @@
 
     <!--  Auth0 client id and domain for user authentication  -->
     <!--  Change this to fit your own Auth0 apps client id and domain  -->
-    <string name="com_auth0_client_id">HwBR36hX8icSlMMnFr91M3E5EJ6n7RCp</string>
-    <string name="com_auth0_domain">dev-uw4plg2a.auth0.com</string>
+    <string name="com_auth0_client_id">your client ID</string>
+    <string name="com_auth0_domain">your auth0 domain</string>
 
 
     <!--  User authentication (login/logout) related Strings  -->
