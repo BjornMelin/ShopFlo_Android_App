@@ -1,5 +1,5 @@
 # ShopFlo_Software_Android_App
- Project and resource management software.  Developed in Android Studio as an Android mobile application.
+ Project and resource management software.  Developed in Android Studio as an Android mobile application.  This repository contains the framework for the application.  Additional API connections and core functionality to be added.
 
 
 ## Auth0 User Authentication
